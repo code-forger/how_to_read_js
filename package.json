@@ -1,0 +1,30 @@
+{
+  "name": "how_to_read_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index.mjs",
+    "serve": "nodemon server/index.mjs",
+    "dev": "node build.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/code-forger/how_to_read_js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/code-forger/how_to_read_js/issues"
+  },
+  "homepage": "https://github.com/code-forger/how_to_read_js#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "esbuild": "^0.15.16",
+    "fastify": "^4.10.2",
+    "nodemon": "^2.0.20",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
