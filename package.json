@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server/index.mjs",
     "serve": "nodemon server/index.mjs",
-    "dev": "node build.mjs"
+    "dev": "node build.mjs",
+    "lint": "eslint . --ignore-path .gitignore --ext js,mjs,jsx"
   },
   "repository": {
     "type": "git",
@@ -24,7 +25,12 @@
     "esbuild": "^0.15.16",
     "fastify": "^4.10.2",
     "nodemon": "^2.0.20",
+    "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.30.0",
+    "eslint-config-airbnb": "^19.0.4"
   }
 }

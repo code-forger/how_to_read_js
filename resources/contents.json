@@ -1,0 +1,58 @@
+[
+  {
+    "slug": "",
+    "title": "Home",
+    "indentation": 0,
+    "minify": true
+  },
+  {
+    "slug": "intro",
+    "title": "1. Intro",
+    "indentation": 0,
+    "minify": true
+  },
+  {
+    "slug": "contents",
+    "title": "2. Contents",
+    "indentation": 0,
+    "minify": true
+  },
+  {
+    "slug": "js--dev",
+    "title": "3.1. JavaScript | dev build",
+    "indentation": 0
+  },
+  {
+    "slug": "js--prod",
+    "title": "3.2. JavaScript | prod build",
+    "indentation": 0,
+    "minify": true
+  },
+  {
+    "slug": "react--dev",
+    "title": "4.1. React | dev build",
+    "indentation": 0
+  },
+  {
+    "slug": "react--prod",
+    "title": "4.2. React | prod build",
+    "indentation": 0,
+    "minify": true
+  },
+  {
+    "slug": "async-await--dev",
+    "title": "5.1. Async Await | dev build",
+    "indentation": 0
+  },
+  {
+    "slug": "async-await--prod",
+    "title": "5.2. Async Await | prod build",
+    "indentation": 0,
+    "minify": true
+  },
+  {
+    "slug": "outro",
+    "title": "6. Outro",
+    "indentation": 0
+  }
+]
