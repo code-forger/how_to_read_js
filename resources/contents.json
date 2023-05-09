@@ -40,19 +40,32 @@
     "minify": true
   },
   {
-    "slug": "async-await--dev",
-    "title": "5.1. Async Await | dev build",
-    "indentation": 0
-  },
-  {
-    "slug": "async-await--prod",
-    "title": "5.2. Async Await | prod build",
+    "slug": "interlude-undefined",
+    "title": "5. Interlude | void 0",
     "indentation": 0,
     "minify": true
   },
   {
+    "slug": "async-await--dev",
+    "title": "6.1. Async Await | dev build",
+    "indentation": 0
+  },
+  {
+    "slug": "async-await--prod",
+    "title": "6.2. Async Await | prod build",
+    "indentation": 0,
+    "minify": true
+  },
+  {
+    "slug": "interlude-modern-js",
+    "title": "7. Interlude | Modern JS",
+    "indentation": 0,
+    "minify": true,
+    "modern": true
+  },
+  {
     "slug": "outro",
-    "title": "6. Outro",
+    "title": "8. Outro",
     "indentation": 0
   }
 ]

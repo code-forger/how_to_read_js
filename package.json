@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server/index.mjs",
     "serve": "nodemon server/index.mjs",
-    "dev": "node build.mjs",
+    "build": "node build.mjs",
+    "dev": "node build-webpack.mjs",
     "lint": "eslint . --ignore-path .gitignore --ext js,mjs,jsx"
   },
   "repository": {
@@ -25,12 +26,22 @@
     "esbuild": "^0.15.16",
     "fastify": "^4.10.2",
     "nodemon": "^2.0.20",
+    "object-hash": "^3.0.0",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/plugin-syntax-import-assertions": "^7.20.0",
+    "@babel/plugin-transform-regenerator": "^7.21.5",
+    "@babel/preset-env": "^7.21.5",
+    "@babel/preset-react": "^7.18.6",
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.7.3",
     "eslint": "^8.30.0",
-    "eslint-config-airbnb": "^19.0.4"
+    "eslint-config-airbnb": "^19.0.4",
+    "style-loader": "^3.3.2",
+    "webpack": "^5.82.0"
   }
 }

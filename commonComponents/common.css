@@ -24,9 +24,37 @@ h1 {
     font-size: 2rem;
 }
 
+label {
+    font-size: 1.4rem;
+}
+
 p {
     font-size: 1.3rem;
     line-height: 1.5rem;
+}
+
+input {
+    padding: .5rem;
+    margin: 1rem 1rem 1rem 0;
+    border: 2px solid grey;
+    border-radius: .5rem;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+}
+
+button {
+    padding: .5rem;
+    margin: 1rem 1rem 1rem 0;
+    border: 2px solid grey;
+    border-radius: .5rem;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    background: white;
+}
+
+button:hover {
+    cursor: pointer;
+    background: #ddd;
 }
 
 #footer p {

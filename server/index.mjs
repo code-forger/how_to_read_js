@@ -2,6 +2,9 @@
 import fastify from 'fastify';
 import ejs from 'ejs';
 import fs from 'fs';
+import dataJson from "../resources/data.json" assert {
+      type: 'json',
+      };
 
 const server = fastify({ logger: true });
 
@@ -36,6 +39,21 @@ server.get('/css/:pageName', async (request, reply) => {
   const { pageName } = request.params;
   reply.type('text/css');
   return fs.readFileSync(`./dist/${pageName}`);
+});
+
+server.get('/api/readUser', async (request, reply) => {
+  reply.type('text/json');
+  return {
+    userId: 5,
+    userName: 'Michael'
+  };
+});
+
+server.get('/api/readTodos/:userHash', async (request, reply) => {
+  const { userHash } = request.params;
+  console.log(userHash)
+  reply.type('text/json');
+  return dataJson;
 });
 
 // Run the server!
