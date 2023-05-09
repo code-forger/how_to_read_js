@@ -1,4 +1,4 @@
-import { render } from '../../commonComponents/pageBoilerplate.jsx';
+import { render } from '../../commonComponents/pageBoilerplate';
 import Content from './Content';
 import { entryForSlug } from '../../commonComponents/utils.mjs';
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { navigationsForSlug } from './utils.mjs';
 
 function Footer({ pageTitle, slug }) {
@@ -22,7 +23,8 @@ function Footer({ pageTitle, slug }) {
 }
 
 Footer.propTypes = {
-
+  pageTitle: PropTypes.string.isRequired,
+  slug: PropTypes.string.isRequired,
 };
 
 export default Footer;

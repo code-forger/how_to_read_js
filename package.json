@@ -8,7 +8,7 @@
     "start": "node server/index.mjs",
     "serve": "nodemon server/index.mjs",
     "build": "node build.mjs",
-    "dev": "node build-webpack.mjs",
+    "dev": "node build.mjs",
     "lint": "eslint . --ignore-path .gitignore --ext js,mjs,jsx"
   },
   "repository": {
@@ -23,7 +23,6 @@
   "homepage": "https://github.com/code-forger/how_to_read_js#readme",
   "dependencies": {
     "ejs": "^3.1.8",
-    "esbuild": "^0.15.16",
     "fastify": "^4.10.2",
     "nodemon": "^2.0.20",
     "object-hash": "^3.0.0",

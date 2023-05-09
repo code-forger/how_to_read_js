@@ -12,6 +12,7 @@ function App({ title, slug, children }) {
 }
 
 App.propTypes = {
+  children: PropTypes.node.isRequired,
   title: PropTypes.string.isRequired,
   slug: PropTypes.string.isRequired,
 };

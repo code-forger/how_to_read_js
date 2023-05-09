@@ -1,1 +1,11 @@
-{"extends": ["airbnb", "airbnb/hooks"]}
+{
+  "parserOptions": {
+    "ecmaVersion": 2022
+  },
+  "extends": ["airbnb", "airbnb/hooks"],
+  "rules": {
+    // We are using named exports to maipulate the bundled code
+    "import/prefer-default-export": 0
+  },
+
+}

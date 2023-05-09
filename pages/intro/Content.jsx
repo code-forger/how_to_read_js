@@ -1,7 +1,6 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
-function Content(props) {
+function Content() {
   return (
     <div className="flex-column">
       <p className="margin-auto">

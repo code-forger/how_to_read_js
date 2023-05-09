@@ -1,9 +1,8 @@
 import React from 'react';
 import contentsJson from '../../resources/contents.json';
 import './Content.css';
-import PropTypes from 'prop-types';
 
-function Content(props) {
+function Content() {
   return (
     <ul>
       {contentsJson.map(({ title, slug, indentation }) => (

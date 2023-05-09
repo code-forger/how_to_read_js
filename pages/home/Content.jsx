@@ -1,9 +1,8 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import Page from '../../commonComponents/Page';
 import './Content.css';
 
-function Content(props) {
+function Content() {
   return (
     <Page pageTitle="Home" slug="" showHeader={false}>
       <div id="home" className="flex-column">

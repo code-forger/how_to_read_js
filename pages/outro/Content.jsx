@@ -1,7 +1,6 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
-function Content(props) {
+function Content() {
   return (
     <div className="flex-column">
       <p className="margin-auto">
@@ -9,7 +8,8 @@ function Content(props) {
       </p>
       <br />
       <p>
-        If you want to practice the art of reading JavaScript yourself, head to the github project where you can find twice as many examples
+        If you want to practice the art of reading JavaScript yourself,
+        head to the github project where you can find twice as many examples
       </p>
       <br />
       <p className="margin-auto">
