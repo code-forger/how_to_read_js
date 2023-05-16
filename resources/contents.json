@@ -6,8 +6,14 @@
     "minify": true
   },
   {
-    "slug": "intro",
-    "title": "1. Intro",
+    "slug": "intro-1",
+    "title": "1.1. Intro",
+    "indentation": 0,
+    "minify": true
+  },
+  {
+    "slug": "intro-2",
+    "title": "1.2. More Intro",
     "indentation": 0,
     "minify": true
   },

@@ -14,6 +14,10 @@
     margin: 0 auto;
 }
 
+.text-center {
+    text-align: center;
+}
+
 .code {
     background: #222;
     color: #eee;

@@ -33,16 +33,19 @@ const build = async () => {
               loader: 'babel-loader',
               options: {
                 presets: [
+                  ['@babel/preset-env', {
+                    targets: {
+                      ...(modernBuild ? { chrome: '130' } : { ie: '11' }),
+                    },
+                  }],
                   ['@babel/preset-react', {
                     targets: {
-                      browsers: ['IE 8'],
+                      ...(modernBuild ? { chrome: '130' } : { ie: '11' }),
                     },
                   }],
                 ],
                 plugins: (
-                  modernBuild
-                    ? ['@babel/plugin-syntax-import-assertions']
-                    : ['@babel/plugin-syntax-import-assertions', '@babel/plugin-transform-regenerator']
+                  ['@babel/plugin-syntax-import-assertions']
                 ),
               },
             },

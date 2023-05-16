@@ -7,9 +7,9 @@ function Content() {
         ✨ Thanks for listening ✨
       </p>
       <br />
-      <p>
+      <p className="margin-auto text-center">
         If you want to practice the art of reading JavaScript yourself,
-        head to the github project where you can find twice as many examples
+        head to the github project where you can fix this presentation yourself!
       </p>
       <br />
       <p className="margin-auto">
